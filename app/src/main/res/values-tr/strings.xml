@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">APReader</string>
+    <string name="app_desc">Android Police yayınlarına hızlı erişim için bir istemci.</string>
+
+    <!-- Activity/fragment/drawer item names -->
+    <string name="title_home">Anasayfa</string>
+    <string name="title_favorites">Favoriler</string>
+    <string name="title_about">Hakkında</string>
+    <string name="title_search">Ara</string>
+    <string name="title_articles">Makaleler</string>
+
+    <string name="action_view">Görünüm</string>
+    <string name="action_view_in_browser">Tarayıcıda görüntüle</string>
+    <string name="action_favorite">Favori</string>
+    <string name="action_unfavorite">Favoriyi kaldır</string>
+    <string name="action_fullscreen">Tam Ekran</string>
+    <string name="action_comments">Yorumlar</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_download">İndir</string>
+    <string name="action_apply">Uygula</string>
+    <string name="action_github">GitHub</string>
+
+    <string name="section_latest">En Son</string>
+    <string name="section_all">Tümü</string>
+
+    <string name="fetching_resources">Kaynaklar Alınıyor...</string>
+
+    <!-- Toast messages -->
+    <string name="download_failed">Yükleme başarısız ( ͡° ʖ̯ ͡°)</string>
+    <string name="error">Bir şeyler yanlış gitti :(</string>
+
+    <!-- Dialogs -->
+    <string name="credit_required">Kredi Gerekli</string>
+    <string name="credit_required_msg">Yaratıcı, bu duvar kağıdı için kredi talebinde bulundu. Harici kaynaklarda paylaşırken lütfen dikkatli olun.</string>
+    <string name="download_complete">İndirme Tamamlandı</string>
+    <string name="download_complete_msg">Duvar kağıdınız indirildi.</string>
+
+
+    <!-- Specify whether to show the contributors in the about section -->
+    <bool name="show_contributors">true</bool>
+
+    <string name="contributors">Kaynaklar:</string>
+
+    <string-array name="people_wps">
+        <item>http://feeds.feedburner.com/AndroidPolice</item>
+    </string-array>
+
+    <string name="me">Feragatname: Bu uygulama resmi bir Android Police istemcisi değildir. Makalelerine, web sitesinden görüntülemekten daha hızlı erişim için bir Android Police takipçisi tarafından yapılmıştır.</string>
+    <string name="alex">Sayfa göstergeleri için kullanılan kodu sağladığı için Alexandre Piveteau'ya özel teşekkürler.</string>
+
+    <!-- Don't edit these, credit is needed for the libraries -->
+    <string name="libraries">Uygulanan Kütüphaneler:</string>
+    <string name="action_homepage">Anasayfa</string>
+    <string name="empty">Burada hiçbir şey yok...</string>
+
+    <array name="namey" formatted="false">
+        <item>MaterialDrawer - Mike Penz</item>
+        <item>Glide - Bumptech</item>
+        <item>Jsoup - Jonathan Hedley</item>
+    </array>
+
+    <array name="desc" formatted="false">
+        <item>MaterialDrawer kütüphanesi, uygulamanız için bir gezinti çekmecesinin mümkün olan en kolay bir şekilde uygulamanızı sağlamayı amaçlamaktadır.</item>
+        <item>Android için bir resim yükleme ve önbellekleme kitaplığını düzgün kaydırmaya odaklanmıştır.</item>
+        <item>Mantıklı bir real-world HTML ve Java HTML ayrıştırıcısıdır.</item>
+    </array>
+
+    <string-array name="uri" formatted="false">
+        <item>https://github.com/mikepenz/MaterialDrawer</item>
+        <item>https://github.com/bumptech/glide</item>
+        <item>https://github.com/jhy/jsoup</item>
+    </string-array>
+
+</resources>
